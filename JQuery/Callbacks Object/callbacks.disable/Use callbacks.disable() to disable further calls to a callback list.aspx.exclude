@@ -1,0 +1,36 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Use callbacks.disable() to disable further calls to a callback list.aspx.cs" Inherits="JQuery_Callbacks_Object_callbacks.disable_Default" %>
+<%--Description: Disable a callback list from doing anything more.--%>
+<%--This method does not accept any arguments.--%>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <%--// A sample logging function to be added to a callbacks list
+var foo = function( value ) {
+  console.log( value );
+};
+ 
+var callbacks = $.Callbacks();
+ 
+// Add the above function to the list
+callbacks.add( foo );
+ 
+// Fire the items on the list
+callbacks.fire( "foo" );
+// Outputs: foo
+ 
+// Disable further calls being possible
+callbacks.disable();
+ 
+// Attempt to fire with "foobar" as an argument
+callbacks.fire( "foobar" );
+// foobar isn't output--%>
+    </div>
+    </form>
+</body>
+</html>

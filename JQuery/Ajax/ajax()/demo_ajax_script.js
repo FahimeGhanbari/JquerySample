@@ -1,0 +1,1 @@
+﻿alert("The javascript Alert Load by Ajax");
